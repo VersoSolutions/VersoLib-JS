@@ -1,0 +1,36 @@
+{
+  "name": "versolib",
+  "title": "VersoLib-JS",
+  "description": "Complements BitcoinLib for use in Verso Wallet and on versocards.com",
+  "version": "0.9.2",
+  "homepage": "http://github.com/VersoSolutions/VersoLib-JS",
+  "author": {
+    "name": "Verso Solutions LLC",
+    "url": "http://www.versocards.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/VersoSolutions/VersoLib-JS.git"
+  },
+  "keywords": [
+    "bitcoin",
+    "wallet"
+  ],
+  "bugs": {
+    "url": "http://github.com/VersoSolutions/VersoLib-JS/issues"
+  },
+  "license": {
+    "name": "GPL v3",
+    "url": "http://github.com/VersoSolutions/VersoLib-JS/blob/master/LICENSE"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "grunt": "~0.4.0",
+    "grunt-contrib-concat": "0.3.0",
+    "grunt-contrib-jshint": "~0.7.2",
+    "grunt-contrib-qunit": "~0.3.0"
+  },
+  "scripts": {
+    "test": "grunt"
+  }
+}
