@@ -128,7 +128,7 @@ Verso.SilverCard.prototype.serialize = function () {
  * @constructor
  * @param {Array}  cardKey   Key of the card
  * @param {Array}  encSeed1  Encrypted seed share of the card
- * @param {Array}  pubHash   Public key has of the card
+ * @param {Array}  pubHash   Public key hash of the card
  */
 Verso.GoldCard = function (cardKey, encSeed1, pubHash) {
     Verso.Card.call(this, cardKey);
